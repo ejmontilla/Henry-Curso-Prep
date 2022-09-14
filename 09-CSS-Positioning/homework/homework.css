@@ -7,32 +7,76 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Arrancaremos este ejercicio por vos: */
 #ejercicioUno {
-
+display: block;
+text-align:center ;
 }
 
 
 /* Ejercicio 2: Posicionar el header */
 
 /* Acá va tu código */
-
+#ejercicioDos{
+    visibility: hidden;
+}
+/*Visibility no ocupa espacio de contenido en el HTML
+   Display ocua dicho espacio 
+*/
 
 
 /* Ejercicio 3: */
 
 /* Acá va tu código */
+#ejercicioTres{
+    position: relative;
+    top: 100px;
+    left: 200px;
+}
+/*
+Relative conserva el espacio de posicion base del elemento.
+Absolute no conversa el espacio de posicion si se trabaja 2 elementos.
 
-
+*/
 
 /* Ejercicio 4: */
 
 /* Acá va tu código */
-
+ #ejercicioCuatro{
+    position:fixed;
+    top: 0;
+    left: 0;
+ }
 
 
 /* Ejercicio 5: */
 
 /* Acá va tu código */
 
+#ejercicioCinco{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
+/*posicionar vertical con align items
+Horizontal justy content
+*/
 
 /* Ejercicio 6. */
+
+/* Acá va tu código */
+ 
+#ejercicioCinco{
+    flex-direction: row-reverse;
+}
+
+#ejercicioSiete{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+#elementoTres{
+    align-self: flex-start;
+}
